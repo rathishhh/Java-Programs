@@ -1,3 +1,17 @@
+class animal
+{
+void eat()
+{
+System.out.println("Animal is eating");
+}
+}
+class mammel extends animal
+{
+void mam()
+{
+System.out.println("Mammel");
+}
+}
 class dog extends mammel
 {
 void bark()
